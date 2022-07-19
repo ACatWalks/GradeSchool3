@@ -37,7 +37,7 @@ This app uses React, SCSS, TypeScript, Express, and MongoDB. If your browser doe
 
 ## Issues
 
-Future features could include authentication of users, which would allow users to update and delete only their own comments, not other people's. Updating and deleting schools and districts should also be restricted to administrators only. Otherwise a school or district with bad reviews could simply delete their own profile, defeating the purpose of this app. 
+Future features could include authentication of users, which would allow users to update and delete only their own comments, not other people's. Updating and deleting schools and districts should also be restricted to administrators only. Otherwise a school or district with bad reviews could simply delete their own profile, defeating the purpose of this app. Also, viewing the index pages shows the list of schools and districts briefly, then a blank page. I was able to add a new school, so the issue is unlikely to be with our database. More likely, there was an unforeseen issue with the conversion to TypeScript, most likely with a mapping function with the cards or with state: {stateParams: true}. 
 
 ## Data Structure Key Points
 - # use this url to interact with api 
